@@ -1,0 +1,96 @@
+<style>
+.container {
+  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .calculator {
+    width: 450px;
+    height: 590px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background: gainsboro;
+    border: 4px solid white; 
+    border-radius: 11px;
+     box-shadow: inset 2px 2px 4px #a6a6a6,
+      inset -2px -2px 4px #ffffff;
+    box-shadow: inset 2px 2px 4px #a6a6a6,
+      inset -2px -2px 4px #e2e2e2;  
+  }
+  
+  .container .input {
+    width: 100%;
+    height: 100px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    overflow-y: auto;
+    text-align: right;
+    padding: 10px;
+    border: black;
+    outline: none;
+    border-radius: 15px;
+    color: rgb(100, 100, 100);
+    background: #f7f7f7;
+
+  }
+  
+  .btn {
+    cursor: grab;
+    text-align: center;
+    width: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 60px;
+    border-radius: 20%;
+    background: linear-gradient(145deg, #c90606, #d60707);
+
+    margin: 15px;
+    border: none;
+    color: black;
+  }
+
+  
+  
+  .sign {
+    color: rgb(248, 247, 250);
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .equal {
+   
+    border-radius: 40px;
+    color:black;
+  
+  }
+  
+  .ac {
+    border-radius: 40px;
+    background: grey;
+    color: black;
+  }
+  .ac:hover{
+    color: white;
+    background-color: rgb(0, 8, 0);
+  }
+  
+  .link {
+    margin-bottom: 5rem;
+    color: white;
+  }
+  
+  .link a {
+    color: rgb(3, 68, 11);
+    text-decoration: none;
+  }
+  </style>
